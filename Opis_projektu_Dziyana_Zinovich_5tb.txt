@@ -1,0 +1,32 @@
+Opis projektu: Strona internetowa szkoły
+
+Cel projektu: Celem projektu jest stworzenie funkcjonalnej i estetycznej strony internetowej dla naszej szkoły, 
+która będzie pełnić rolę głównego kanału informacyjnego dla uczniów, rodziców, nauczycieli oraz administracji. 
+Strona ma umożliwiać szybki dostęp do najważniejszych informacji, dokumentów oraz narzędzi wspierających komunikację i organizację życia szkolnego.
+
+Zakres funkcjonalny
+Strona zawiera:
+
+1. Przeglądanie aktualnego planu lekcji
+
+2. Logowanie do dziennika elektronicznego VULCAN
+
+3. Pobieranie dokumentów szkolnych, regulaminów
+
+4. Publikacja wydarzeń i ogłoszeń na stronie głównej
+
+5. Formularz kontaktowy dla rodziców i uczniów
+
+6. Panel administracyjny do zarządzania treścią strony
+
+
+Grupy użytkowników
+
+Uczniowie: dostęp do planu lekcji, dokumentów, informacji o nauczycielach
+
+Rodzice: dostęp do dziennika, regulaminów, kontakt ze szkołą
+
+Nauczyciele: publikacja materiałów, dostęp do planu lekcji i dziennika
+
+Administratorzy: zarządzanie treścią, aktualizacje, dodawanie dokumentów
+
