@@ -1,0 +1,177 @@
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header.naglowek {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #b30101;
+    padding: 20px 40px;
+    color: white;
+  }
+  .logo-nazwa {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+#logo1{
+    height: 130px;
+}
+  
+  #tm1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  nav.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    clear: both;
+  }
+
+  .hero {
+    background: #680303;
+    color: white;
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .info-boxes {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+  
+  }
+  
+  .box {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+    border-radius: 6px;
+  }
+  
+  footer {
+  
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+
+  img#logo1{
+    float: left;
+    
+  }
+
+  img#dziennik, img#plan, img#dokumentacja{
+    height: 150px;
+    width: 150px;
+  }
+  section#zdjecia{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  img#boisko, img#tarcza {
+    margin: auto;
+  }
+  img#tarcza{
+    height: 150px;
+    width: 150px;
+  }
+
+  h1#tm1{
+    float: right;
+    clear: both;
+  }
+
+  .zdjecia-obok {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    justify-content: center;
+    margin: 50px 100px;
+  }
+  
+  img#tarcza {
+    height: 400px;
+    width: 400px;
+    width: auto;
+  }
+  
+  img#boisko {
+    max-width: 600px;
+    height: auto;
+  }
+  
+  .galeria {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 50px 100px;
+  }
+  
+  .lewa-strona {
+    flex: 2;
+  }
+  
+  .prawa-strona {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .foto-lewa {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  .grafika-gorna,
+  .grafika-dolna {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+  }
+
+  #dokumenty{
+    padding: 20px;
+  }
+  
+   
