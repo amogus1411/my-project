@@ -87,6 +87,7 @@
     text-align: center;
     padding: 15px;
     margin-top: 40px;
+    clear: both;
   }
 
   img#logo1{
@@ -170,8 +171,89 @@
     box-shadow: 0 0 8px rgba(0,0,0,0.15);
   }
 
-  #dokumenty{
-    padding: 20px;
-  }
+
+
+  /* Kontener na panel + zawartość */
+.sekcja-dokumentacja {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 40px;
+}
+
+/* Panel boczny */
+.panel-boczny {
+  width: 250px;
+  background-color: #b30101;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  flex-shrink: 0; /* panel nie zwęża się */
+}
+
+.panel-boczny h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.lista-plikow {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-plikow li {
+  margin: 10px 0;
+}
+
+.lista-plikow a {
+  display: block;
+  text-decoration: none;
+  background-color: #fff;
+  color: #b30101;
+  padding: 10px;
+  border-radius: 6px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.lista-plikow a:hover {
+  background-color: #f0f0f0;
+  transform: translateX(5px);
+}
+
+/* Główna część */
+.zawartosc {
+  flex: 1;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* Obrazek */
+#dokumenty {
+  max-width: 100%;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+#oszkole{
+ height: 550px;
+}
+
+#tekst {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: #2c3e50;
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
   
    
