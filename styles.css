@@ -1,4 +1,4 @@
-
+/* 
 
 * {
 
@@ -36,6 +36,7 @@
     font-size: 24px;
     margin: 0;
   }
+
   
   nav.menu ul {
     list-style: none;
@@ -242,6 +243,10 @@
  height: 550px;
 }
 
+#nauczyciele{
+  height: 450px;
+}
+
 #tekst {
   font-family: 'Segoe UI', 'Roboto', sans-serif;
   font-size: 1.1em;
@@ -255,5 +260,142 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
-  
-   
+ 
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.card p {
+  color: #555;
+  font-size: 14px;
+}
+
+.kontakt {
+  padding: 20px;
+  background-color: #f4f4f4;
+  margin: 30px auto;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.kontakt h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.kontakt p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.formularz-kontaktowy {
+  display: flex;
+  flex-direction: column;
+}
+
+.formularz-kontaktowy label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.formularz-kontaktowy input,
+.formularz-kontaktowy textarea {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.formularz-kontaktowy button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #d62828;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formularz-kontaktowy button:hover {
+  background-color: #a61c1c;
+}
+
+.sekcja-dyrekcja {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sekcja-dyrekcja h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Karty */
+.karta-dyrektora,
+.karta-wicedyrektora {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.karta-dyrektora img,
+.karta-wicedyrektora img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.opis h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.opis p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.opis span {
+  font-style: italic;
+  color: #777;
+}
+#tlo{
+  height: 535px;
+} */

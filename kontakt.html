@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Technikum Mechatroniczne nr 1</title>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="text-[#333] leading-[1.6] font-[Arial,sans-serif] bg-[#f9f9f9]">
+
+<header class="flex justify-between items-center text-white px-10 py-5 bg-[#b30101]">
+  <div class="flex items-center gap-5">
+    <a href="glowna.html"><img src="logo.png" alt="Logo" class="h-[130px] float-left"></a>
+    <h1 class="text-2xl m-0 float-right clear-both">Technikum Mechatroniczne nr 1</h1>
+  </div>
+  <nav>
+    <ul class="flex gap-5 list-none">
+      <li><a href="oszkole.html" class="text-white no-underline font-bold text-base">O szkole</a></li>
+      <li><a href="nauczyciele.html" class="text-white no-underline font-bold text-base">Nauczyciele</a></li>
+      <li><a href="dyrekcja.html" class="text-white no-underline font-bold text-base">Dyrekcja</a></li>
+      <li><a href="kontakt.html" class="text-white no-underline font-bold text-base">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="bg-[#f4f4f4] max-w-[600px] shadow-[0_0_10px_rgba(0,0,0,0.1)] mx-auto my-[30px] p-5 rounded-lg">
+  <h2 class="text-[#333] mb-2.5">Kontakt do nas:</h2>
+  <p class="text-base mx-0 my-[5px]">ul. Wiśniowa 56, 02-520 Warszawa</p>
+  <p class="text-base mx-0 my-[5px]">tel. 22 646-44-99 lub 22 646-44-98</p>
+  <p class="text-base mx-0 my-[5px]">fax. 22 646-45-00</p>
+  <p class="text-base mx-0 my-[5px]">
+    Email: 
+    <a href="mailto:szkola@tm1.edu.pl" class="text-blue-600">szkola@tm1.edu.pl</a>, 
+    <a href="mailto:sekretariat@tm1.edu.pl" class="text-blue-600">sekretariat@tm1.edu.pl</a>
+  </p>
+
+  <h2 class="text-[#333] mb-2.5 mt-5">Napisz do nas:</h2>
+  <form action="#" method="post" class="flex flex-col">
+    <label for="imie" class="font-bold mt-2.5">Imię:</label>
+    <input type="text" id="imie" name="imie" required class="border rounded text-[15px] mt-[5px] p-2 border-solid border-[#ccc]">
+
+    <label for="nazwisko" class="font-bold mt-2.5">Nazwisko:</label>
+    <input type="text" id="nazwisko" name="nazwisko" required class="border rounded text-[15px] mt-[5px] p-2 border-solid border-[#ccc]">
+
+    <label for="email" class="font-bold mt-2.5">Email:</label>
+    <input type="email" id="email" name="email" required class="border rounded text-[15px] mt-[5px] p-2 border-solid border-[#ccc]">
+
+    <label for="wiadomosc" class="font-bold mt-2.5">Wiadomość:</label>
+    <textarea id="wiadomosc" name="wiadomosc" rows="5" required class="border rounded text-[15px] mt-[5px] p-2 border-solid border-[#ccc]"></textarea>
+
+    <button type="submit" class="bg-[#d62828] text-white rounded text-base cursor-pointer mt-[15px] p-2.5 border-none hover:bg-[#a61c1c]">Wyślij</button>
+  </form>
+</section>
+
+<footer class="text-white text-center clear-both mt-10 p-[15px] bg-[#333]">
+  <p>Technikum Mechatroniczne nr 1</p>
+</footer>
+
+</body>
+</html>

@@ -3,46 +3,66 @@
 <head>
 <meta charset="UTF-8">
 <title>Technikum Mechatroniczne nr 1</title>
-<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <header class="naglowek">
-        <div class="logo-nazwa">
-            <a href="glowna.html"><img src="logo.png" alt="Logo" id="logo1"></a>   
-          <h1 id="tm1">Technikum Mechatroniczne nr 1</h1>
-        </div>
-        <nav class="menu">
-          <ul>
-            <li><a href="oszkole.html">O szkole</a></li>
-            <li><a href="nauczyciele.html">Nauczyciele</a></li>
-            <li><a href="dyrekcja.html">Dyrekcja</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-          </ul>
-        </nav>
-      </header>      
+<body class="text-[#333] leading-[1.6] font-[Arial,sans-serif] bg-[#f9f9f9]">
+
+<header class="flex justify-between items-center text-white px-10 py-5 bg-[#b30101]">
+  <div class="flex items-center gap-5">
+    <a href="glowna.html"><img src="logo.png" alt="Logo" class="h-[130px] float-left"></a>
+    <h1 class="text-2xl m-0 float-right clear-both">Technikum Mechatroniczne nr 1</h1>
+  </div>
+  <nav>
+    <ul class="flex gap-5 list-none">
+      <li><a href="oszkole.html" class="text-white no-underline font-bold text-base">O szkole</a></li>
+      <li><a href="nauczyciele.html" class="text-white no-underline font-bold text-base">Nauczyciele</a></li>
+      <li><a href="dyrekcja.html" class="text-white no-underline font-bold text-base">Dyrekcja</a></li>
+      <li><a href="kontakt.html" class="text-white no-underline font-bold text-base">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
+
 <main>
-<section class="hero">
-<h2>Szkola marzeń</h2>
-<p>Witamy w Technikum Mechatronicznym nr 1</p>
-</section>
-<section class="galeria">
-    <div class="lewa-strona">
-      <img src="boisko.png" alt="Boisko" class="foto-lewa">
+  <section class="text-white text-center p-[60px] bg-[#680303]">
+    <h2>Szkola marzeń</h2>
+    <p>Witamy w Technikum Mechatronicznym nr 1</p>
+  </section>
+
+  <section class="flex justify-center items-start gap-[30px] mx-[100px] my-[50px]">
+    <div class="flex-[2]">
+      <img src="boisko.png" alt="Boisko" class="w-full h-auto shadow-[0_0_10px_rgba(0,0,0,0.2)] rounded-lg max-w-[600px]">
     </div>
-    <div class="prawa-strona">
-      <img src="tarcza.png" alt="Tarcza Perspektywy" class="grafika-gorna">
-      <img src="wisniowa.png" alt="Wisniowa" class="grafika-dolna">
+    <div class="flex-1 flex flex-col gap-5">
+      <img src="tarcza.png" alt="Tarcza Perspektywy" class="w-full h-auto shadow-[0_0_8px_rgba(0,0,0,0.15)] rounded-lg">
+      <img src="wisniowa.png" alt="Wisniowa" class="w-full h-auto shadow-[0_0_8px_rgba(0,0,0,0.15)] rounded-lg">
     </div>
-  </section>   
-<section class="info-boxes">
-<div class="box"><a href="https://uonetplus.vulcan.net.pl/warszawamokotow"> <img src="dziennik.png" alt="" id="dziennik"><h3>DZIENNIK</h3></a></div>
-<div class="box"><a href="https://planlekcji.staff.edu.pl/"><img src="plan.png" alt="" id="plan"><h3>PLAN LEKCJI</h3></a></div>
-<div class="box"><a href="dokumentacja.html"><img src="dokumentacja.png" alt="" id="dokumentacja"><h3>DOKUMENTACJA</h3></a></div>
-</section>
+  </section>
+
+  <section class="flex justify-around p-10">
+    <div class="border w-3/12 text-center p-5 rounded-md border-solid border-[#ddd] bg-white">
+      <a href="https://uonetplus.vulcan.net.pl/warszawamokotow">
+        <img src="dziennik.png" alt="" class="h-[150px] w-[150px] mx-auto">
+        <h3>DZIENNIK</h3>
+      </a>
+    </div>
+    <div class="border w-3/12 text-center p-5 rounded-md border-solid border-[#ddd] bg-white">
+      <a href="https://planlekcji.staff.edu.pl/">
+        <img src="plan.png" alt="" class="h-[150px] w-[150px] mx-auto">
+        <h3>PLAN LEKCJI</h3>
+      </a>
+    </div>
+    <div class="border w-3/12 text-center p-5 rounded-md border-solid border-[#ddd] bg-white">
+      <a href="dokumentacja.html">
+        <img src="dokumentacja.png" alt="" class="h-[150px] w-[150px] mx-auto">
+        <h3>DOKUMENTACJA</h3>
+      </a>
+    </div>
+  </section>
 </main>
-<footer>
-<p>Technikum Mechatroniczne nr 1</p>
+
+<footer class="text-white text-center clear-both mt-10 p-[15px] bg-[#333]">
+  <p>Technikum Mechatroniczne nr 1</p>
 </footer>
+
 </body>
 </html>
- 
